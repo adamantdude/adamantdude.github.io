@@ -4,46 +4,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Adam Lee Resume</title>
+  
+  <link href="style.css" rel="stylesheet">
+  <script>
+      function startup()
+      {
+        BodyContent = document.getElementById("mainBody");
+
+        mainp();
+      }
+      
+      function mainp()
+      {
+        
+      }
 </head>
-<body>
-  <div>
-    <h1>Adam Lee</h1>
-    <p>Passionate and selfless with a ravenous curiosity for the inner workings of technology. 
-      <br>Detail-oriented, organized, and an enthusiastic team player.
-    </p>
+<body onload = "startup()">
+
+  <div id = "mainBody">
+    
   </div>
-  
-  <div class="exp-head">
-    <h3>Personal Experience</h3>
-  </div>
-  
-  <div class="exp1">
-    <h4>Walmart Stores, Inc.</h4>
-    <h5>Electronics Sales Associate</h5>
-    <h6>Jun 2016 - Jun 2018 | Mar 2022 - Jun 2022 </h6>
-  </div>
-  
-  <div class="exp1-list">
-    <ul>
-      <li>Studied product information and comparisons to similar products for a streamlined customer shopping experience</li>
-      <li>Learned about leadership positions to become a leader candidate</li>
-      <li>Increased positive customer feedback and department sales compared to previous year statistics</li>
-      <li>Multi-tasked interactions between five parties of customers to their satisfaction</li>
-    </ul>
-  </div>
-  
-  <div class="exp2">
-    <h4>BGDS, LLC.</h4>
-    <h5>Amazon DSP Delivery Driver</h5>
-    <h6>Nov 2020 - Jan 2021</h6>
-  </div>
-  
-  <div class="exp2-list">
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    
+  <div id = "sideBar">
+      <button onclick ="mainp()">Main</button>
+      <button onclick ="expp()">Experience</button>
+      <button onclick ="edup()">Education</button>
+      <button onclick ="funp()">Fun Facts</button>
   </div>
   
 </body>
