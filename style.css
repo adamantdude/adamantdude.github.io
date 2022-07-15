@@ -27,6 +27,7 @@ body
 	margin-bottom:0px;
 	background-color:#FFFFFF;
 	font-size:16px;
+    	color:#FFFFFF
 }
 
 #mainBody
@@ -36,26 +37,27 @@ body
 	top:0;
 	height:auto;
 	width:auto;
-    text-align:center;
-    font-size:26px;
+	text-align:center;
+	font-size:26px;
+	color:#FFFFFF
 }
 
 .header
 {
-    margin-left:200px;
-    top:0;
-    height:auto;
-    width:auto;
-    font-size:30px;
-    text-align:center;
+	margin-left:200px;
+	top:0;
+	height:auto;
+	width:auto;
+	font-size:30px;
+	text-align:center;
 }
 
 .headinfo
 {
-    font-size:24px;
+	font-size:24px;
 }
 
 .foot
 {
-    font-size:14px;
+	font-size:14px;
 }
