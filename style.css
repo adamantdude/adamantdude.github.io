@@ -4,6 +4,7 @@
 
 body
 {
+	background-image:url('design-space-paper-textured-background.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -25,8 +26,6 @@ body
 	margin-left:30px;
 	margin-bottom:0px;
 	background-color:#FFFFFF;
-	opacity: 0.3;
-	border-color:transparent;
 	font-size:16px;
 }
 
@@ -37,4 +36,23 @@ body
 	top:0;
 	height:auto;
 	width:auto;
+}
+
+.header
+{
+    margin-left:200px;
+    top:0;
+    height:auto;
+    width:auto;
+    font-size:20px;
+}
+
+.headinfo
+{
+    font-size:14px;
+}
+
+.foot
+{
+    font-size:12px;
 }
