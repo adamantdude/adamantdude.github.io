@@ -6,7 +6,7 @@ body
 {
 	background-image:url('905239.png');
 	background-repeat:no-repeat;
-	background-size:contain;
+	background-size:cover;
     background-color:#000000
 }
 
