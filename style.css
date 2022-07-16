@@ -6,7 +6,8 @@ body
 {
 	background-image:url('905239.png');
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:contain;
+    background-color:#000000
 }
 
 #sideBar
