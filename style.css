@@ -2,16 +2,14 @@
 	--viewport: main;
 }
 
-body
-{
+body {
 	background-image:url('905239.png');
 	background-repeat:no-repeat;
 	background-size:cover;
     background-color:#000000
 }
 
-#sideBar
-{
+#sideBar {
 	position: fixed;
 	box-sizing: border-box;
 	top:0;
@@ -20,8 +18,7 @@ body
 	height:100%;
 }
 
-#sideBar button
-{
+#sideBar button {
 	width:100%;
 	margin-top:30px;
 	margin-left:30px;
@@ -30,8 +27,7 @@ body
 	font-size:16px;
 }
 
-#mainBody
-{
+#mainBody {
 	margin-top:50px;
 	margin-left:200px;
     margin-right:200px;
@@ -43,8 +39,7 @@ body
     color:#FFFFFF
 }
 
-.header
-{
+.header {
     margin-left:200px;
     margin-right:200px;
     top:0;
@@ -55,12 +50,10 @@ body
     color:#FFFFFF;
 }
 
-.headinfo
-{
+.headinfo {
     font-size:24px;
 }
 
-.foot
-{
+.foot {
     font-size:14px;
 }

@@ -4,44 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Adam Lee Resume</title>
-  
-  <link href="style.css" rel="stylesheet">
-  <script>
-    function startup()
-    {
-      BodyContent = document.getElementById("mainBody");
-
-      mainp();
-    }
-
-    function mainp()
-    {
-      BodyContent.innerHTML = "I'm passionate and selfless with a ravenous curiosity for the inner workings of technology. I'm detail-oriented, organized, and an enthusiastic team player."
-      BodyContent.innerHTML += " As a dedicated student and an ardent teacher, I am always on the lookout for new knowledge to absorb and spread."
-    }
-
-    function expp()
-    {
-      BodyContent.innerHTML = "Apr 2022 - May 2022 | Jun 2016 - Jun 2018</br>Walmart Stores, Inc.</br><u>Electronics / Entertainment Sales Associate</u><ul><li>Stock, sort, and merchandise products on sales floor</li><li>Assist customers with finding certain or similar products at a fast and satisfactory pace</li><li>Pursued learning opportunities to advance knowledge and take on leadership position.</li><li>Trained new team members by relaying information on company procedures and safety requirements.</li>"
-      BodyContent.innerHTML += "</br></ul><u>Cashier / Customer Service Representative</u><ul><li>Maintained customer satisfaction with quick and professional handling of product returns.</li><li>Resolved customer complaints and maintained clean and tidy checkout area.</li><li>Monitored self-checkout systems and provided help in resolving complex problems.</li><li>Utilized POS system to handle customer cash and credit card transactions.</li></ul>"
-      BodyContent.innerHTML += "</br></br>Nov 2020 - Jan 2021 </br> BGDS, LLC </br> <u>Delivery Driver</u><ul><li>Manage, track and deliver packages while driving large vehicles</li><li>Completed on-time deliveries by choosing best and most efficient routes.</li><li>Read maps, followed oral and written instructions and used GPS technology to make deliveries.</li><li>Performed walk around on delivery vehicle before beginning shift to verify correct and safe operating order.</li>"
-    }
-    
-    function edup()
-    {
-      BodyContent.innerHTML = "Aug 2020 - Feb 2022 </br> <u>Nongraduate; Bachelor of Science - Computer Science</u> </br> California State University - Sacramento </br> 6000 J St, Sacramento, CA 95819"
-      BodyContent.innerHTML += "</br></br>Aug 2016 - May 2020 </br> <u>Associate of Science - Computer Science</u> </br> American River College </br> 4700 College Oak Dr, Sacramento, CA 95841"
-      BodyContent.innerHTML += "</br></br>Aug 2012 - May 2016 </br> <u>High School Diploma</u> </br> Mesa Verde High School </br> 7501 Carriage Dr, Citrus Heights, CA 95621"
-    }
-    
-    function funp()
-    {
-      BodyContent.innerHTML = "My coding language repertoire consists of C#, C/C++, Python, HTML, CSS, Unity, JavaScript, MySQL, and Command Line Operating Systems e.g. UNIX."
-      BodyContent.innerHTML += "</br></br>I'm an avid gamer who mostly plays Fighting games like Persona 4 Arena Ultimax and Melty Blood Type Lumina. I also play a great deal of Old School Runescape, Sea of Thieves, and Final Fantasy XIV."
-    }
-  </script>
+  <script src="./jquery-3.6.1.js"></script>
+  <script src="./script.js"></script>
+  <link href="./style.css" rel="stylesheet">
 </head>
-<body onload = "startup()">
+<body>
   <div class="header" id="head">
     <h1>Adam Lee</h1>
       <div class="headinfo" id="hdi">
@@ -57,10 +24,10 @@
   </div>
 
   <div id = "sideBar">
-      <button onclick ="mainp()">Overview</button>
-      <button onclick ="expp()">Experience</button>
-      <button onclick ="edup()">Education</button>
-      <button onclick ="funp()">Fun Facts</button>
+      <button class='button' id="main">Overview</button>
+      <button class='button' id="exp">Experience</button>
+      <button class='button' id="edu">Education</button>
+      <button class='button' id="fun">Fun Facts</button>
   </div>
 </body>
 </html>
